@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GeoLocation"
+        android:textSize="20dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="10dp"
+        />
+
+    <TextView
+        android:textColor="@color/colorAccent"
+        android:id="@+id/latitude"
+        android:layout_width="281dp"
+        android:layout_height="44dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="50dp"
+        android:text=""
+        android:textSize="20dp" />
+
+    <TextView
+        android:textColor="@color/colorAccent"
+        android:id="@+id/longitude"
+        android:layout_width="279dp"
+        android:layout_height="44dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="90dp"
+        android:text=""
+        android:textSize="20dp" />
+
+
+    <Button
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8mm"
+        android:layout_marginTop="70mm"
+        android:text="start"
+        android:visibility="visible"
+        android:id="@+id/start"
+        />
+
+    <Button
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40mm"
+        android:layout_marginTop="70mm"
+        android:text="Stop"
+        android:id="@+id/stop"
+        />
+
+    <Button
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="465dp"
+        android:text="Show"
+        android:id="@+id/show"
+        />
+
+</RelativeLayout>
